@@ -7,10 +7,7 @@ def subtraction(num1, num2)
 end
 
 def division(num1, num2 = 1)
-  if (num2 != 0)
     num1/num2
-  else 
-    puts "Cannot divde by zero."
 end
 
 def multiplication(num1, num2)
